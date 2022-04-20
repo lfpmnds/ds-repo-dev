@@ -1,0 +1,192 @@
+/*entire document*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color1: #FFFFFF;
+    --color2: #CCCCCC;
+    --color3: #F03C42;
+    --color4: #222374;
+    --color5: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+    color: ;
+}
+
+.container {  
+    max-width: 960px;
+    margin: 0 auto;
+}
+/*entire document final*/
+/*header*/
+header {
+    background-color: var(--color3);
+    min-height: 100px;
+    padding: 35px 15px;
+}   
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 18px;
+    color: var(--color1);
+}
+
+.header-left {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.header-left h1 {
+    font-size: 18px;
+    color: var(--color1);
+}
+
+.header-right {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right a {
+    font-size: 14px;
+    color: var(--color1);
+}
+
+.header-right img {
+    margin: 10px 10px;
+    width: 30px;
+    height: 30px;
+}
+/*header final*/
+/*section*/
+/*section about*/
+.about {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--color4);
+}
+
+.about h2 {
+    padding: 0 0 40px 0;
+    font-size: 32px;
+    color: var(--color1);
+}
+
+.about-box {
+    padding: 20px;
+    margin: 0 0 20px 0;
+    background-color: var(--color2);
+    border-radius: 8px;
+}
+
+.about-box h3 {
+    padding: 0 0 20px 0;
+    color: var(--color5);
+    font-size: 20px;
+}
+
+.about-box p {
+    color: var(--color5);
+    font-size: 14px;
+}
+/*section about final*/
+/*section fitness-types*/
+.fitness-types {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--color1);
+}
+
+.fitness-types h2 {
+    padding: 0 0 40px 0;
+    font-size: 32px;
+    color: var(--color3);
+}
+
+.fitness-types-box {
+    padding: 20px;
+    margin: 0 0 20px 0;
+    background-color: var(--color4);
+    border-radius: 8px;
+}
+.fitness-types-box h3 {
+    padding: 0 0 20px 0;
+    color: var(--color1);
+    font-size: 20px;
+}
+
+.fitness-types-box p {
+    color: var(--color2);
+    font-size: 14px;
+}
+/*section fitness-types final*/
+/*section final*/
+/*footer*/
+footer {
+    min-height: 270px;
+    padding: 35px 15px;
+    background-color: var(--color5);
+    font-size: 14px;
+    color: var(--color1);
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top-items {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top-items img {
+    margin: 5px 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-top-items a {
+    font-size: 14px;
+    margin: 5px 5px;
+}
+
+.footer-top {
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom {
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/*footer final*/
