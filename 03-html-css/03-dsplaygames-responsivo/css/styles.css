@@ -1,0 +1,413 @@
+/*-- general styles --*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --color-1: #FFFFFF;
+    --color-2: #F0F0F0;
+    --color-3: #C4C4C4;
+    --color-4: #797979;
+    --color-5: #383838;
+    --color-6: #38AF90;
+    --color-7: #DD7E92;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 244px;
+    height: 67px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+/*-- header styles --*/
+
+header {
+    padding: 14px 10px;
+    height: 90px;
+    background-color: var(--color-6);
+    color: var(--color-1);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+header h1 {
+    font-size: 18px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    margin: auto 0;
+    display: flex;
+}
+
+.header-right {
+    margin: auto 0;
+    display: flex;
+}
+
+.navigation-bar {
+    display: none;
+}
+
+/*-- news section styles --*/
+
+.news-section {
+    padding: 40px 10px;
+    background-color: var(--color-1);
+}
+
+.news-section h1 {
+    font-size: 24px;
+    color: var(--color-4);
+    padding-bottom: 8px;
+}
+
+.news-section .btn {
+    background-color: var(--color-7);
+    color: var(--color-1);
+}
+
+.news-section .btn:hover {
+    background-color: var(--color-6);
+}
+
+.news-section .loading {
+    display: flex;
+    justify-content: center;
+}
+
+.news-box {
+    padding: 12px;
+    margin-bottom: 28px;
+    background-color: var(--color-2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.news-box h2 {
+    font-size: 16px;
+    color: var(--color-6);
+    text-align: left;
+}
+
+.news-box h3 {
+    font-size: 12px;
+    color: var(--color-4);
+    padding-bottom: 3px;
+    text-align: left;
+}
+
+.news-box h4 {
+    padding-top: 10px;
+    font-size: 14px;
+    color: var(--color-7);
+    text-align: left;
+}
+
+.news-box p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+.news-box #date {
+    color: var(--color-6);
+    padding: 5px 0 12px 0;
+    border-top: 1px solid var(--color-6);
+    text-align: left;
+}
+
+/*-- games section styles --*/
+
+.games-section {
+    padding: 40px 10px;
+    background-color: var(--color-2);
+}
+
+.games-section h1 {
+    font-size: 24px;
+    color: var(--color-6);
+}
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.games-description-box {
+    background-color: var(--color-1);
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.games-description-box img {
+    width: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.games-description-box h3 {
+    color: var(--color-4);
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.games-description-box p {
+    color: var(--color-4);
+    font-size: 12px;
+}
+
+.games-description-box span {
+    color: var(--color-6);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.games-description-box .avg {
+    color: var(--color-6);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 15px 0 15px 0;
+}
+
+/*-- signup section styles --*/
+
+.signup-section {
+    padding: 40px 10px;
+    background-color: var(--color-1);
+    margin: 0 auto;
+}
+
+.signup-section h1 {
+    color: var(--color-4);
+    font-size: 24px;
+}
+
+.signup-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 790px;
+    background-color: var(--color-2);
+    border-radius: 8px;
+    padding: 40px 10px;
+    margin-top: 10px;   
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.signup-box #name, #email {
+    font-size: 16px;
+    color: var(--color-3);
+    width: 280px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 13px 22px;
+    border: 1px solid var(--color-4);
+    border-radius: 4px;    
+}
+
+.signup-box .ctrl-platform-container {
+    min-width: 280px;
+    font-size: 16px;
+    color: var(--color-4);
+}
+
+.signup-box .checkbox-newsletter { 
+    margin-top: 30px;   
+    font-size: 16px;
+    color: var(--color-4);
+}
+
+.signup-box .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-box .btn-submit {
+    margin-top: 20px;
+    background-color: var(--color-7);
+    color: var(--color-1);
+}
+
+.signup-box .btn-submit:hover {
+    background-color: var(--color-6);
+}
+
+.signup-box .btn-reset {
+    margin-top: 20px;
+    background-color: var(--color-1);
+    color: var(--color-7);
+    border: 2px solid var(--color-7);    
+}
+
+.signup-box .btn-reset:hover {
+    background-color: var(--color-1);
+    color: var(--color-6);
+    border: 2px solid var(--color-6);
+}
+
+/*-- footer styles --*/
+
+footer {
+    padding: 30px 35px 0 35px;
+    background-color: var(--color-5);
+    font-size: 14px;
+    color: var(--color-1);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-container-item p {
+    padding: 10px;
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    /*-- header styles --*/
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .navigation-bar {
+        margin: auto 0;
+        display: flex;
+        font-size: 14px;
+        list-style-type: none;
+    }
+
+    .navigation-bar a {
+        padding: 0 20px 0 0;
+    }
+
+    /*-- games section styles --*/
+
+    .games-description-box img {
+        width: 240px;
+    }
+
+    .games-description-box h3 {
+        font-size: 16px;
+    }
+    
+    .games-description-box p {
+        font-size: 10px;
+    }
+    
+    .games-description-box span {
+        font-size: 12px;
+    }
+    
+    .games-description-box .avg {
+        font-size: 30px;
+        margin: 10px 0 10px 0;
+    }
+
+    /*--  signup section styles --*/
+    .signup-box #name, #email {
+        width: 642px;
+    }
+
+    .signup-box .btn-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .signup-box .ctrl-platform-container {
+        width: 642px;
+    }
+
+    .btn-submit {
+        margin: 10px 26px 10px 0;
+    }
+    
+    .btn-reset {
+        margin: 10px 0 10px 26px;
+    }
+
+    /*-- footer styles --*/
+
+    footer {
+        padding: 30px 35px 30px 35px;
+        height: 190px;
+    }
+
+    .footer-container {
+        margin-top: 44px;
+        flex-direction: row;
+        justify-content: space-between;     
+    }
+
+    .footer-container-item {
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width: 992px) {
+    /*-- games section styles --*/
+
+    .games-description-box img {
+        width: 300px;
+    }
+
+    .games-description-box h3 {
+        font-size: 18px;
+    }
+    
+    .games-description-box p {
+        font-size: 12px;
+    }
+    
+    .games-description-box span {
+        font-size: 14px;
+    }
+    
+    .games-description-box .avg {
+        font-size: 36px;
+        margin: 15px 0 15px 0;
+    }
+}
