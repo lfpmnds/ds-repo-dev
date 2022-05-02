@@ -40,33 +40,5 @@ public class Program {
 		System.out.printf("Valor a pagar = R$ %.2f", bill.total());
 		
 		sc.close();
-		// TODO Auto-generated method stub
-		
-
-		/*
-   escreval
-   escreval("RELATÓRIO:")
-   escreval("Consumo = R$ ", consumo:4:2)
-   se consumo > 30.00 entao
-      couvert <- 0.00
-      escreval("Isento de couvert")
-      senao
-         couvert <- 4.00
-         escreval("Couvert = R$ ", couvert:4:2)
-   fimse
-   se sexo = "F" entao
-      ingresso <- 8.00
-      senao
-         ingresso <- 10.00
-   fimse
-   escreval("Ingresso = R$ ", ingresso:4:2)
-   
-   valorAPagar <- consumo + couvert + ingresso
-   
-   escreval
-   escreval("Valor a pagar = R$ ", valorAPagar:4:2)*/
-		
-
 	}
-
 }
