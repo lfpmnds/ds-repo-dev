@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.FileSystemAlreadyExistsException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
@@ -35,7 +36,6 @@ public class Program {
 				lines = br.readLine();
 			}
 			
-
 			for (Sale sales : list) {
 				System.out.println(sales);
 			}
